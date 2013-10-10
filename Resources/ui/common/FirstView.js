@@ -9,40 +9,41 @@ function FirstView() {
 		showVerticalScrollIndicator : true,
 		showHorizontalScrollIndicator : true,
 		left : '85%',
-		width : '15%'
+		width : '16%'
 	});
 	var btnInicio = Titanium.UI.createButton({
 		title : '',
 		top : 10,
-		height : 34,
-		width : 44,
+		height : 51,
+		width : 66,
+		
 		backgroundImage : '/web/kokone-iconos/inicio.png'
 
 	});
 
 	var btnCalendar = Titanium.UI.createButton({
 		title : '',
-		top : 54,
-		height : 34,
-		width : 44,
+		top : 71,
+		height : 51,
+		width : 66,
 		backgroundImage : '/web/kokone-iconos/calendario.png'
 
 	});
 
 	var btnRevision = Titanium.UI.createButton({
 		title : '',
-		top : 98,
-		height : 34,
-		width : 44,
+		top : 132,
+		height : 51,
+		width : 66,
 		backgroundImage : '/web/kokone-iconos/revision.png'
 
 	});
 
 	var btnInforme = Titanium.UI.createButton({
 		title : '',
-		top : 142,
-		height : 34,
-		width : 44,
+		top : 193,
+		height : 51,
+		width : 66,
 		backgroundImage : '/web/kokone-iconos/informe.png'
 
 	});

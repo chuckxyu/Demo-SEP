@@ -14,7 +14,7 @@ function FirstView() {
 	var btnInicio = Titanium.UI.createButton({
 		title : '',
 		top : 10,
-		height : 51,
+		height : 71,
 		width : 66,
 		
 		backgroundImage : '/web/kokone-iconos/inicio.png'
@@ -23,8 +23,8 @@ function FirstView() {
 
 	var btnCalendar = Titanium.UI.createButton({
 		title : '',
-		top : 71,
-		height : 51,
+		top : 91,
+		height : 71,
 		width : 66,
 		backgroundImage : '/web/kokone-iconos/calendario.png'
 
@@ -32,8 +32,8 @@ function FirstView() {
 
 	var btnRevision = Titanium.UI.createButton({
 		title : '',
-		top : 132,
-		height : 51,
+		top : 152,
+		height : 71,
 		width : 66,
 		backgroundImage : '/web/kokone-iconos/revision.png'
 
@@ -41,8 +41,8 @@ function FirstView() {
 
 	var btnInforme = Titanium.UI.createButton({
 		title : '',
-		top : 193,
-		height : 51,
+		top : 213,
+		height : 71,
 		width : 66,
 		backgroundImage : '/web/kokone-iconos/informe.png'
 
@@ -52,12 +52,12 @@ function FirstView() {
 		top : 0,
 		left : 0,
 		width : '85%',
-		url : 'http://www.google.com'
+		url : 'http://kokone.inteliglobe-mex.com:8078/portal'
 	});
 
 	btnInicio.addEventListener('click', function(e) {
 		Titanium.API.info("You clicked the button btnInicio");
-		webview.setUrl("http://www.cacei.org/");
+		webview.setUrl("http://kokone.inteliglobe-mex.com:8078/portal");
 
 	});
 
@@ -69,13 +69,13 @@ function FirstView() {
 
 	btnRevision.addEventListener('click', function(e) {
 		Titanium.API.info("You clicked the button btnRevision");
-		webview.setUrl("http://www.inteliglobe.com/");
+		webview.setUrl("http://kokone.inteliglobe-mex.com/add/revision.html");
 
 	});
 
 	btnInforme.addEventListener('click', function(e) {
 		Titanium.API.info("You clicked the button btnInforme");
-		webview.setUrl("http://www.cacei.org/");
+		webview.setUrl("http://www.adobe.com/content/dam/Adobe/en/devnet/acrobat/pdfs/access.pdf");
 
 	});
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.ce.c</id>
-    <name>Demo SEP</name>
+    <name>Kokone</name>
     <version>1.0</version>
     <publisher>carlosgarcia</publisher>
     <url>http://</url>
@@ -13,7 +13,7 @@
     <statusbar-style>default</statusbar-style>
     <statusbar-hidden>false</statusbar-hidden>
     <fullscreen>false</fullscreen>
-    <navbar-hidden>false</navbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
     <guid>8b9ac814-f773-4a81-baa4-c0cf558ea043</guid>
     <property name="ti.ui.defaultunit" type="string">system</property>
@@ -35,7 +35,7 @@
             <enabled>true</enabled>
             <inline-css-images>true</inline-css-images>
         </splash>
-        <theme>default</theme>
+        <theme>kokone-splash</theme>
     </mobileweb>
     <modules/>
     <deployment-targets>
